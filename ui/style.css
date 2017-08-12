@@ -1,3 +1,5 @@
+
+
 body{
 
 
@@ -98,8 +100,10 @@ nav{
 text-align: center;
 padding: 0px;
 margin:0px 20px ;
-
+box-sizing: 10px 10px; 
 }
+
+
 
 *{padding:0;margin:0;}
 
@@ -156,7 +160,10 @@ footer a:hover{color:#444;text-decoration:none;}
 @media only screen and (min-width: 1281px)
  {html,body{font-size:1.1em;}}
  @media only screen and (max-width: 800px) {body{padding:0;}
- 
+ {border-right:none;border-bottom:1px #eee solid;position:none;height:auto;width:auto;text-align:center;padding-bottom:1em;}
+ #content{margin-left:0;padding:2em 2em 1em 2em;width:auto;}
+ footer{padding:0 2.5em 2em 2.5em;}}@media only screen and (max-width: 320px) {{padding:1.2em 1.2em 0.6em 1.2em;}
+ #content{padding:1.2em 1.2em 0.6em 1.2em;}footer{padding:0 1.5em 1.2em 1.5em;}ul,ol{margin-left:2em;}}
 header{
 
 	text-align: center;
@@ -196,4 +203,5 @@ footer{
    }
 .fa-whatsapp:hover {
 	background: #00b489;
-  color: white;}
+  color: white;
+   }
