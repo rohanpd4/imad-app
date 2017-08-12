@@ -25,7 +25,7 @@ font-size: 40px;
 
 
 #logo img{
-     align-items:right;
+     
 	 width: 9em;
     height: 9em;
     border-radius: 20em;
@@ -37,7 +37,7 @@ font-size: 40px;
 
 
 .fa {
-    padding: 20px;
+    
     font-size: 30px;
     width: 30px;
     text-align: center;
@@ -62,7 +62,7 @@ transition: .3s ease-in-out;
   color: #FFFFFF;
   text-align: center;
   font-size: 30px;
-  padding: 10px;
+  
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
@@ -99,7 +99,7 @@ nav{
 text-align: center;
 padding: 0px;
 margin:0px 20px ;
-box-sizing: 10px 10px; 
+
 }
 
 
@@ -188,4 +188,3 @@ footer{
   color: white;
 }}
 
-align-items:right;}
