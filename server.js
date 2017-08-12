@@ -10,6 +10,11 @@ app.get('/', function (req, res) {
 });
 
 
+app.get('/test-db',function(req,res){
+    res
+});
+
+
 app.get('/path1', function (req, res) {
   res.send("Hello");
 });
